@@ -1,8 +1,6 @@
-#ifndef MAIN_H
+#ifndef _MAIN_H
 
-#define MAIN_H
-
-
+#define _MAIN_H
 
 int _putchar(char c);
 
@@ -20,6 +18,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 
 int get_endianness(void);
 
+#endif /* #ifndef _MAIN_H */
 
 
-#endif
